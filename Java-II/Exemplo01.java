@@ -22,9 +22,14 @@ public class Exemplo01 {
 
     // If e else para aluno aprovado/reprovado
 
-    if(RES >= 7)
+    if(RES >= 7) {
       System.out.println("Aluno aprovado!");
-    else
+      System.out.println("Parabens!");
+    }
+    else {
       System.out.println("Aluno reprovado.");
+      System.out.println("Voce pode repetir a materia");
+    }
+  
   }
 }

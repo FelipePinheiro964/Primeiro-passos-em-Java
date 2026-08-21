@@ -12,13 +12,11 @@ public class Fatorial {
 
     valor = 2;
     fatorial = BigInteger.ONE;
-
-    while (valor <= numero) {
+    // atulizando o fatorial para estrutura for
+    for (valor = 2; valor <= numero; valor = valor + 1)
 
       fatorial = fatorial.multiply(BigInteger.valueOf(valor));
-      valor = valor + 1;
 
-    }
 
     System.out.printf("O fatorial de %d é %d.\n", numero, fatorial);
 

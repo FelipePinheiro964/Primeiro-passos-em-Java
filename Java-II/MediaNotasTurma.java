@@ -11,10 +11,11 @@ public class MediaNotasTurma {
 
     soma = 0;
     // mais um exemplo de atualização do codigo com o for, eu achei interessante, da pra usar em alguns lugares
-    for(notaslidas = 0; notaslidas < nro_estudante; notaslidas = notaslidas + 1) {
+    // agora mais algumas modificacoes, deixando o codigo melhor para leitura
+    for(notaslidas = 0; notaslidas < nro_estudante; notaslidas = notaslidas += 1) {
       System.out.printf("Nota %d: ", notaslidas + 1);
       nota = Integer.parseInt(System.console().readLine());
-      soma = soma + nota;
+      soma =+ nota;
       }
     
 
